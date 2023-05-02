@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Drag and Drop - Square Objects</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<section class="draggable-elements">
+
+  <i class="fas fa-square draggable" draggable="true" style="color: #9a1d38;" id="square"></i>
+  <i class="fas fa-circle draggable" draggable="true" style="color: #1560b6;" id="circle"></i>
+    <i class="fas fa-square draggable" draggable="true" style="color: #9a1d38;" id="square"></i>
+    <i class="fas fa-square draggable" draggable="true" style="color: #9a1d38;" id="square"></i>
+  </section>
+  <section class="droppable-elements">
+    <div class="droppable" data-draggable-id="square" style="color: #9a1d38"><span>DROP </span></div>
+    <div class="droppable" data-draggable-id="square" style="color: #9a1d38;"><span>DROP</span></div>
+    <div class="droppable" data-draggable-id="square" style="color: #9a1d38;"><span>DROP</span></div>
+    
+  </section>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
